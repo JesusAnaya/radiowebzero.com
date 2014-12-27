@@ -1,0 +1,5 @@
+django==1.6
+south
+django-extensions
+django-suit
+pillow

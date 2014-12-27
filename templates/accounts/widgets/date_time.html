@@ -1,0 +1,14 @@
+
+
+<input id="id_{{name}}" type="text" name="{{name}}" {% if value %} value="{{value}}" {% endif %}>
+
+<script type="text/javascript">
+
+    $('#id_{{name}}').timepicker({
+        'minTime': '10:00am',
+        'maxTime': '11:00pm',
+        'showDuration': true,
+        'timeFormat': 'H:i'
+    });
+
+</script>
